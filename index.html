@@ -26,9 +26,6 @@
 				height: 6rem;
 				margin-bottom: 10rem;
 			}
-			/* blockquote{
-				border-left: 5px solid #000000;
-			} */
 		</style>
 	</head>
 	<body>
@@ -56,7 +53,7 @@
 				</nav>
 			</header>
 			
-		<div class="row">
+		<div class="about row hide-on-small-and-down">
 			<div class="col s12">
 				<div class="card-panel grey lighten-4 z-depth-2">
 					<div class="row valign-wrapper">
@@ -78,33 +75,51 @@
 			</div>
 		</div>
 
-		<ul class="collection with-header scrollspy" id="education">
-			<li class="collection-header"><blockquote><h3>Education</h3></blockquote></li>
-			<li class="collection-item avatar">
-				<i class="fa fa-graduation-cap circle black" aria-hidden="true"></i>
-				<span class="title text-darken-4">DWARKADAS J SANGHVI COLLEGE OF ENGINEERING</span>
-				<p class="secondary-content black-text hide-on-small-and-down">2017 – Present</p>
-				<p class="grey-text text-darken-2 hide-on-med-and-up">2017 – Present</p>
-				<p class="grey-text text-darken-2">Bachelor of Computer Engineering</p>
-				<p class="grey-text text-darken-2">Average CGPA: 8.87/10</p>
-			</li>
-			<li class="collection-item avatar">
-				<i class="fa fa-book circle black" aria-hidden="true"></i>
-				<span class="title">MITHIBAI COLLEGE</span>
-				<p class="secondary-content black-text hide-on-small-and-down">2015 – 2017</p>
-				<p class="grey-text text-darken-2 hide-on-med-and-up">2015 – 2017</p>
-				<p class="grey-text text-darken-2">XII (Science – HSC BOARD)</p>
-				<p class="grey-text text-darken-2">Percentage: 91.08%.</p>
-			</li>
-			<li class="collection-item avatar">
-				<i class="fa fa-book circle black" aria-hidden="true"></i>
-				<span class="title">R. C. PATEL HIGH SCHOOL</span>
-				<p class="secondary-content black-text hide-on-small-and-down">2015</p>
-				<p class="grey-text text-darken-2 hide-on-med-and-up">2015</p>
-				<p class="grey-text text-darken-2">X (SSC BOARD)</p>
-				<p class="grey-text text-darken-2">Percentage: 90.30%.</p>
-			</li>
-		</ul>
+		<div class="about hide-on-med-and-up">
+			<div class="card-panel grey lighten-4 z-depth-2">
+				<div class="row valign-wrapper">
+					<div class="col s12">
+						<blockquote class="black-text" for="image"><h4>About</h4></blockquote>
+						<img src="images/IMG_0638_new.jpg" alt="" class="responsive-img">
+					</div>
+				</div>
+				<div class="row valign-wrapper">
+					<span class="black-text text-lighten-5"><h6>An enthusiast and avid learner, always passionate about learning new things.
+					<br>An ML/Full Stack Web Developer.<br>Looking for interships in Web Development and Machine Learning.
+					<br><br> Currently learning React.JS</h6>
+				</div>
+			</div>
+		</div>
+
+		<div class="education">
+			<ul class="collection with-header scrollspy" id="education">
+				<li class="collection-header"><blockquote><h3>Education</h3></blockquote></li>
+				<li class="collection-item avatar">
+					<i class="fa fa-graduation-cap circle black" aria-hidden="true"></i>
+					<span class="title text-darken-4">DWARKADAS J SANGHVI COLLEGE OF ENGINEERING</span>
+					<p class="secondary-content black-text hide-on-small-and-down">2017 – Present</p>
+					<p class="grey-text text-darken-2 hide-on-med-and-up">2017 – Present</p>
+					<p class="grey-text text-darken-2">Bachelor of Computer Engineering</p>
+					<p class="grey-text text-darken-2">Average CGPA: 8.87/10</p>
+				</li>
+				<li class="collection-item avatar">
+					<i class="fa fa-book circle black" aria-hidden="true"></i>
+					<span class="title">MITHIBAI COLLEGE</span>
+					<p class="secondary-content black-text hide-on-small-and-down">2015 – 2017</p>
+					<p class="grey-text text-darken-2 hide-on-med-and-up">2015 – 2017</p>
+					<p class="grey-text text-darken-2">XII (Science – HSC BOARD)</p>
+					<p class="grey-text text-darken-2">Percentage: 91.08%.</p>
+				</li>
+				<li class="collection-item avatar">
+					<i class="fa fa-book circle black" aria-hidden="true"></i>
+					<span class="title">R. C. PATEL HIGH SCHOOL</span>
+					<p class="secondary-content black-text hide-on-small-and-down">2015</p>
+					<p class="grey-text text-darken-2 hide-on-med-and-up">2015</p>
+					<p class="grey-text text-darken-2">X (SSC BOARD)</p>
+					<p class="grey-text text-darken-2">Percentage: 90.30%.</p>
+				</li>
+			</ul>
+		</div>
 
 		<section class="section scrollspy" id="skills">
 			<blockquote><h3>Technical Skills</h3></blockquote>
@@ -136,35 +151,39 @@
 					</div>
 					<div id="web">
 						<div class="hide-on-med-and-up">
-							<div class="col s12">
-								<div class="card ">
-									<div class="card-content">
-										<span class="card-title">Front End</span>
-										<div class="divider"></div>
-										<ul class="collections">
-											<li>HTML 5</li>
-											<li>CSS 3</li>
-											<li>JavaScript</li>
-											<li>Bootstrap 4</li>
-											<li>Materialize CSS</li>
-											<li>ReactJS</li>
-										</ul>
+							<div class="row">
+								<div class="col s12">
+									<div class="card ">
+										<div class="card-content">
+											<span class="card-title">Front End</span>
+											<div class="divider"></div>
+											<ul class="collections">
+												<li>HTML 5</li>
+												<li>CSS 3</li>
+												<li>JavaScript</li>
+												<li>Bootstrap 4</li>
+												<li>Materialize CSS</li>
+												<li>ReactJS</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="col s12">
-								<div class="card ">
-									<div class="card-content">
-										<span class="card-title">Back End</span>
-										<div class="divider"></div>
-										<ul class="card-">
-											<li>NodeJS</li>
-											<li>ExpressJS</li>
-											<li>Django</li>
-											<li>PHP</li>
-											<li>My SQL</li>
-											<li>MongoDB</li>
-										</ul>
+							<div class="row">
+								<div class="col s12">
+									<div class="card ">
+										<div class="card-content">
+											<span class="card-title">Back End</span>
+											<div class="divider"></div>
+											<ul class="card-">
+												<li>NodeJS</li>
+												<li>ExpressJS</li>
+												<li>Django</li>
+												<li>PHP</li>
+												<li>My SQL</li>
+												<li>MongoDB</li>
+											</ul>
+										</div>
 									</div>
 								</div>
 							</div>
