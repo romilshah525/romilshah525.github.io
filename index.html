@@ -15,11 +15,14 @@
 			#aboul {
 				margin-top: 10rem;
 			}
+			#education li:nth-child(even){
+				background: #f8f8f8;
+			}
 			.tabs .indicator{
 				background-color: #1a237e;
 			}
 			.section{
-				padding: 0.5rem 0rem;
+				margin-top: 4rem;
 			}
 			.fixed-top {
 				height: 6rem;
@@ -34,6 +37,10 @@
 			blockquote{
 				border-left: 5px solid #1a237e;
 			}
+			.yellowText{
+				color: #ffab40;
+				cursor: pointer;
+			}
 		</style>
 	</head>
 	<body>
@@ -45,26 +52,30 @@
 					<ul class="right hide-on-med-and-down">
 						<li><a class="waves-effect waves-light" href="#aboul">About</a></li>
 						<li><a class="waves-effect waves-light" href="#education">Education</a></li>
-						<li><a class="waves-effect waves-light" href="#projects">Projects</a></li>
 						<li><a class="waves-effect waves-light" href="#skills">Skills</a></li>
+						<li><a class="waves-effect waves-light" href="#projects">Projects</a></li>
 						<li><a class="waves-effect waves-light" href="#hackathons">Hackathons</a></li>
+						<li><a class="waves-effect waves-light" href="#work">Work Experience</a></li>
 						<li><a class="waves-effect waves-light" href="#contact">Contact</a></li>
+						<li><a class="waves-effect waves-light" target="_blank" href="files/Romil_Resume.pdf">View Resume</a></li>
 					</ul>
 					<ul class="sidenav indigo darken-1" id="mobile-menu" style="width:50%;">
 						<li><a class="white-text waves-effect waves-light" href="#about" style="margin-top: 25px;">About</a></li>
 						<li><a class="white-text waves-effect waves-light" href="#education">Education</a></li>
-						<li><a class="white-text waves-effect waves-light" href="#projects">Projects</a></li>
 						<li><a class="white-text waves-effect waves-light" href="#skills">Skills</a></li>
+						<li><a class="white-text waves-effect waves-light" href="#projects">Projects</a></li>
 						<li><a class="white-text waves-effect waves-light" href="#hackathons">Hackathons</a></li>
+						<li><a class="white-text waves-effect waves-light" href="#work">Work Experience</a></li>
 						<li><a class="white-text waves-effect waves-light" href="#contact">Contact</a></li>
+						<li><a class="white-text waves-effect waves-light" target="_blank" href="files/Romil_Resume.pdf">View Resume</a></li>
 					</ul>
 				</div>
 			</nav>
 		</header>
 		
-		<div class="container section scrollspy hide-on-small-and-down grey lighten-5" id="aboul">
+		<section class="container section scrollspy hide-on-small-and-down grey lighten-5" id="aboul">
 			<div class="col s12">
-				<div class="card-panel grey lighten-4 z-depth-2">
+				<div class="card-panel grey lighten-5 z-depth-2">
 					<div class="row valign-wrapper">
 						<div class="col s3">
 							<blockquote class="black-text" for="image"><h3>About</h3></blockquote>
@@ -85,11 +96,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
-		<br>
-		<div class="container section scrollspy hide-on-med-and-up grey lighten-5" id="about">
-			<div class="card-panel grey lighten-4 z-depth-2">
+		<section class="container section scrollspy hide-on-med-and-up grey lighten-5" id="about">
+			<div class="card-panel grey lighten-5 z-depth-2">
 				<div class="row valign-wrapper">
 					<div class="col s12">
 						<blockquote class="black-text" for="image"><h3>About</h3></blockquote>
@@ -106,13 +116,12 @@
 					</p>
 				</span>
 			</div>
-		</div>
+		</section>
 
-		<br>
-		<div class="container section scrollspy" id="education">
+		<section class="container section scrollspy" id="education">
 			<ul class="collection with-header">
-				<li class="grey lighten-5 collection-header"><blockquote><h3>Education</h3></blockquote></li>
-				<li class="grey lighten-5 collection-item avatar">
+				<li class="collection-header"><blockquote><h3>Education</h3></blockquote></li>
+				<li class="collection-item avatar">
 					<i class="fa fa-graduation-cap circle black" aria-hidden="true"></i>
 					<span class="title text-darken-4">DWARKADAS J SANGHVI COLLEGE OF ENGINEERING</span>
 					<p class="secondary-content black-text hide-on-small-and-down">2017 – Present</p>
@@ -120,7 +129,7 @@
 					<p class="grey-text text-darken-2">Bachelor of Computer Engineering</p>
 					<p class="grey-text text-darken-2">Average CGPA: 8.87/10</p>
 				</li>
-				<li class="grey lighten-5 collection-item avatar">
+				<li class="collection-item avatar">
 					<i class="fa fa-book circle black" aria-hidden="true"></i>
 					<span class="title">MITHIBAI COLLEGE</span>
 					<p class="secondary-content black-text hide-on-small-and-down">2015 – 2017</p>
@@ -128,7 +137,7 @@
 					<p class="grey-text text-darken-2">XII (Science – HSC BOARD)</p>
 					<p class="grey-text text-darken-2">Percentage: 91.08%.</p>
 				</li>
-				<li class="grey lighten-5 collection-item avatar">
+				<li class="collection-item avatar">
 					<i class="fa fa-book circle black" aria-hidden="true"></i>
 					<span class="title">R. C. PATEL HIGH SCHOOL</span>
 					<p class="secondary-content black-text hide-on-small-and-down">2015</p>
@@ -137,49 +146,8 @@
 					<p class="grey-text text-darken-2">Percentage: 90.30%.</p>
 				</li>
 			</ul>
-		</div>
+		</section>
 
-		<br>
-		<div class="container section scrollspy grey lighten-5" id="projects">
-			<blockquote><h3>Major Projects</h3></blockquote>
-			<div class="row">
-				<div class="col s12 l4">
-					<div class="card">
-						<div class="card-content">
-							<span class="card-title">Online Pharmacy</span>
-							<p>A complete solution to create a digital pharmacy shop, made using Bootstrap and ExpressJS with MongoDB as the database.</p>
-						</div>
-						<div class="card-action center">
-							<a target="_blank" href="https://github.com/romilshah525/OnlinePharmacy">View on Github</a>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 l4">
-					<div class="card">
-						<div class="card-content">
-							<span class="card-title">Water.io</span>
-							<p>A simple web interface to predict groundwater level in the specified region for the next 10 years with an accuracy of 90%, (achieved using ARIMA Model).</p>
-						</div>
-						<div class="card-action center">
-							<a target="_blank" href="https://github.com/romilshah525/SIH-2019">View on Github</a>
-						</div>
-					</div>
-				</div>
-				<div class="col s12 l4">
-					<div class="card">
-						<div class="card-content">
-							<span class="card-title">Foody</span>
-							<p>The solution used image processing to detect any food item present in the image uploaded, and would give an approximate number of calories it would contain.</p>
-						</div>
-						<div class="card-action center">
-							<a target="_blank" href="https://github.com/romilshah525/frcrce">View on Github</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<br>
 		<section class="container section scrollspy grey lighten-5" id="skills">
 			<blockquote><h3>Technical Skills</h3></blockquote>
 			<div class="row">
@@ -283,8 +251,102 @@
 				</div>
 			</div>
 		</section>
-		
-		<br>
+
+		<section class="container section scrollspy grey lighten-5" id="projects">
+			<blockquote><h3>Major Projects</h3></blockquote>
+			<div class="row">
+				<div class="col s12 l4">
+					<div class="card">
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Online Pharmacy</span>
+							<p>A complete solution to creating a digital pharmacy store & maintaining it.
+								It is developed from client as well as admin perspective, with functionalities like Authentication, Validation, File Upload, Email notification, Pagination etc.
+							</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Technology Stack
+								<i class="material-icons right">close</i>
+							</span>
+							<div class="divider"></div>
+							<ul class="collections">
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>Bootstrap4</li>
+								<li>JavaScript</li>
+								<li>jQuery</li>
+								<li>ExpressJS</li>
+								<li>MongoDB</li>
+							</ul>
+						</div>
+						<div class="card-action">
+							<a target="_blank" href="https://github.com/romilshah525/OnlinePharmacy">View on Github</a>
+							<span class="activator yellowText right">Technology<i class="material-icons right">unfold_more</i></span>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 l4">
+					<div class="card">
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">Water.io</span>
+							<p>An interactive webapp to predict groundwater level for the user specified region, for upcoming 10 years with an accuracy of 90%, (achieved using ARIMA Model).
+								The required data was scraped from <a href="https://data.gov.in/" target="_blank">data.gov.in</a> using Flask (Python).</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Technology Stack
+								<i class="material-icons right">close</i>
+							</span>
+							<div class="divider"></div>
+							<ul class="collections">
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
+								<li>ReactJS</li>
+								<li>Material UI</li>
+								<li>ExpressJS</li>
+								<li>Python</li>
+								<li>MongoDB</li>
+							</ul>
+						</div>
+						<div class="card-action">
+								<a target="_blank" href="https://github.com/romilshah525/SIH-2019">View on Github</a>
+							<span class="activator yellowText right">Technology<i class="material-icons right">unfold_more</i></span>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 l4">
+					<div class="card">
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4">IYF</span>
+							<p>Developed a complete webapp for completely digitalizing the registration of volunteers and other management operations.
+								Appropriate emails for validation were send.
+								A certificate (in PDF format) was also generated.
+							</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Technology Stack
+								<i class="material-icons right">close</i>
+							</span>
+							<div class="divider"></div>
+							<ul class="collections">
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
+								<li>ReactJS</li>
+								<li>Material UI</li>
+								<li>ExpressJS</li>
+								<li>Python</li>
+								<li>MongoDB</li>
+							</ul>
+						</div>
+						<div class="card-action">
+							<a target="_blank" href="https://github.com/romilshah525/DJ_ACM">View on Github</a>
+							<span class="activator yellowText right">Technology<i class="material-icons right">unfold_more</i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="container section scrollspy grey lighten-5" id="hackathons">
 			<div class="row valign-wrapper">
 				<div class="col">
@@ -292,10 +354,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 l4">
+				<div class="col s8 m6 l4">
 					<img src="images/SIH.jpg" alt="" class="responsive-img">
 				</div>
-				<div class="col s12 l7">
+				<div class="col s12 m6 l7">
 					<h2 class="indigo-text text-darken-4">Smart India Hackathon 2019</h2>
 					<p>Qualified for the 36 hour, Smart India Hackathon 2019, Software Edition, organized by MHRD, AICTE.</p>
 					<p><span class="back-text">Location: Chennai</span></p>
@@ -306,10 +368,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 l4 push-l8">
+				<div class="col s12 m6 l4 push-l8">
 					<img src="images/unscript.png" alt="" class="responsive-img">
 				</div>
-				<div class="col s12 l7 pull-l3 right-align">
+				<div class="col s12 m6 l7 pull-l3 right-align">
 					<h2 class="indigo-text text-darken-4">Unscript 2k19</h2>
 					<p>Qualified for the 24 hour, Unscript 2k19 hackathon, organized by Fr. Agnel College of Engineering.</p>
 					<p><span class="back-text">Location: Bandra, Mumbai</span></p>
@@ -320,8 +382,29 @@
 				</div>
 			</div>
 		</section>
-	</body>
 
+		<section class="container section scrollspy grey lighten-5 work" id="work">
+			<blockquote><h3>Work Experience</h3></blockquote>
+			<div class="row">
+				<div class="col s12">
+					<div class="card black-text">
+						<div class="card-content" >
+							<div class="card-title">Junkminds</div>
+							<div class="secondary-content">July 2019 - September 2019</div>
+							<br><div class="divider"></div>
+							<span >
+								<br>
+								<p>Interned at Junkminds.com as a content writer, developing content for their portal <a href="https://junkminds.com/" target="_blank">(www.junkminds.com)</a>,
+									for the subject Big Data and Analytics, during the period July, 2019 to September, 2019.</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</body>
+	
 	<footer class="page-footer section darken-3 grey scrollspy" id="contact" style="padding:0px;">
 		<div class="container valign-wrapper" >
 			<div class="row">
