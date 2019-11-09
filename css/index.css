@@ -65,3 +65,8 @@ blockquote{
 	color: #ffab40;
 	cursor: pointer;
 }
+.date{
+	font-size: 90%;
+	color: #26a69a;
+	line-height: 32px;
+}
