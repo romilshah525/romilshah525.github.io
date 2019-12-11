@@ -8,8 +8,8 @@
 }
 @keyframes bounceback {
 	0%{top:-600px;}
-	85%{
-		top: 20px;
+	80%{
+		top: 100px;
 	}
 	100%{
 		top:0px;
@@ -24,19 +24,12 @@
 	transition: transform 0.01s;
 }
 @keyframes imbalance {
-	0%{top:-600px;}
-	60%{
-		top: 1px;
-		transform: rotateZ(-2deg);
-		transform: rotateZ(2deg);
-	}
-	99%{
-		top: 1px;
-		transform: rotateZ(2deg);
-		transform: rotateZ(-2deg);
+	0%{left:-600px;}
+	80%{
+		left: 100px;
 	}
 	100%{
-		top:0px;
+		left:0px;
 	}
 }
 #education li:nth-child(even){
