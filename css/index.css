@@ -1,5 +1,4 @@
 #about {
-	margin-top: 6rem;
 	position: relative;
 	animation: bounceback;
 	animation-duration: 1.5s;
@@ -15,30 +14,10 @@
 		top:0px;
 	}
 }
-#aboul {
-	margin-top: 10rem;
-	position: relative;
-	animation: imbalance;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	transition: transform 0.01s;
-}
-@keyframes imbalance {
-	0%{left:-600px;}
-	80%{
-		left: 100px;
-	}
-	100%{
-		left:0px;
-	}
-}
-#education li:nth-child(even){
-	background: #f8f8f8;
-}
-.tabs .indicator{
+.tabs .indicator {
 	background-color: #1a237e;
 }
-.section{
+.section {
 	margin-top: 4rem;
 }
 .fixed-top {
@@ -51,15 +30,37 @@
 	z-index: 9999;
 	display: flex;
 }
-blockquote{
+blockquote {
 	border-left: 5px solid #1a237e;
 }
-.yellowText{
+.yellowText {
 	color: #ffab40;
 	cursor: pointer;
 }
-.date{
+.date {
 	font-size: 80%;
 	color: #26a69a;
 	line-height: 32px;
+}
+.txt-type > .txt {
+	border-right: 0.2rem solid #333;
+}
+#type-writer {
+	margin-top: 18rem;
+	position: relative;
+	animation: anti-imbalance;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+	transition: transform 0.01s;
+	margin-bottom: 10rem;
+	text-align: center;
+}
+@keyframes anti-imbalance {
+	0%{right:-700px;}
+	80%{
+		right: 200px;
+	}
+	100%{
+		right:0px;
+	}
 }
