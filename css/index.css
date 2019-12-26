@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
 #about {
 	position: relative;
 	animation: bounceback;
@@ -18,7 +20,7 @@
 	background-color: #1a237e;
 }
 .section {
-	margin-top: 4rem;
+	margin-top: 3rem;
 }
 .fixed-top {
 	height: 6rem;
@@ -52,8 +54,9 @@ blockquote {
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 	transition: transform 0.01s;
-	margin-bottom: 10rem;
+	margin-bottom: 13rem;
 	text-align: center;
+	font-family: 'Courgette', cursive;
 }
 @keyframes anti-imbalance {
 	0%{right:-700px;}

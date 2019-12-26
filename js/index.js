@@ -32,7 +32,7 @@ Typewriter.prototype.type = function(){
 }
 function init(){
 	const txtElement = document.querySelector('.txt-type');
-	const words = ["Machine Learning", "Web Development", "Programming"];
+	const words = ["Machine Learning", "Web Development", "Programming", "Computer Engineering"];
 	const wait = 1500;
 	new Typewriter(txtElement, words, wait);
 }
