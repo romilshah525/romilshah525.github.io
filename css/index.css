@@ -66,3 +66,13 @@ blockquote {
 		right:0px;
 	}
 }
+
+img {
+	height: 300px;
+	width: 300px;
+}
+
+.whatsapp {
+	background-color: #01e675;
+	color: #fff !important;
+}

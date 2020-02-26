@@ -1,4 +1,4 @@
-const Typewriter = function(txtElement, words, wait=500){
+const Typewriter = function(txtElement, words, wait=400){
 	this.txtElement = txtElement;
 	this.words = words;
 	this.txt = '';
@@ -16,7 +16,7 @@ Typewriter.prototype.type = function(){
 		this.txt = fullText.substring(0, this.txt.length+1);
 	}
 	this.txtElement.innerHTML = `<span class="txt center-align">${this.txt}</span>`;
-	let typeSpeed = 300;
+	let typeSpeed = 250;
 	if(this.isDeleting) {
 		typeSpeed /= 2;
 	}
