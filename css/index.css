@@ -90,9 +90,9 @@ blockquote {
 	}
 }
 
-img {
-	height: 300px;
-	width: 300px;
+.my-img-size {
+	height: 320px;
+	width: 320px;
 }
 
 .whatsapp {
