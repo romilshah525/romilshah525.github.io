@@ -1,101 +1,112 @@
 /* @import url('https://fonts.googleapis.com/css?family=Courgette&display=swap'); */
 /* latin-ext */
 @font-face {
-	font-family: "Courgette";
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local("Courgette Regular"), local("Courgette-Regular"), url(../fonts/wEO_EBrAnc9BLjLQAUk1WPoK7Es.woff2) format("woff2");
-	unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-family: "Courgette";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Courgette Regular"), local("Courgette-Regular"),
+    url(../fonts/wEO_EBrAnc9BLjLQAUk1WPoK7Es.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-	font-family: "Courgette";
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: local("Courgette Regular"), local("Courgette-Regular"), url(../fonts/wEO_EBrAnc9BLjLQAUk1VvoK.woff2) format("woff2");
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Courgette";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Courgette Regular"), local("Courgette-Regular"),
+    url(../fonts/wEO_EBrAnc9BLjLQAUk1VvoK.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 #about {
-	position: relative;
-	animation: bounceback;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	transition: transform 0.01s;
+  position: relative;
+  animation: bounceback;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  transition: transform 0.01s;
 }
 @keyframes bounceback {
-	0% {
-		top: -600px;
-	}
-	80% {
-		top: 100px;
-	}
-	100% {
-		top: 0px;
-	}
+  0% {
+    top: -600px;
+  }
+  80% {
+    top: 100px;
+  }
+  100% {
+    top: 0px;
+  }
 }
 .tabs .indicator {
-	background-color: #1a237e;
+  background-color: #1a237e;
 }
 .section {
-	margin-top: 3rem;
+  margin-top: 3rem;
 }
 .fixed-top {
-	height: 6rem;
-	position: fixed;
-	align-items: center;
-	justify-content: flex-end;
-	top: 0;
-	left: 0;
-	z-index: 9999;
-	display: flex;
+  height: 6rem;
+  position: fixed;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
 }
 blockquote {
-	border-left: 5px solid #1a237e;
+  border-left: 5px solid #1a237e;
 }
 .yellowText {
-	color: #ffab40;
-	cursor: pointer;
+  color: #ffab40;
+  cursor: pointer;
 }
 .date {
-	font-size: 80%;
-	color: #26a69a;
-	line-height: 32px;
+  font-size: 80%;
+  color: #26a69a;
+  line-height: 32px;
 }
 .txt-type > .txt {
-	border-right: 0.2rem solid #333;
+  border-right: 0.2rem solid #333;
 }
 #type-writer {
-	margin-top: 18rem;
-	position: relative;
-	animation: anti-imbalance;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-	transition: transform 0.01s;
-	margin-bottom: 13rem;
-	text-align: center;
-	font-family: "Courgette", cursive;
+  margin-top: 18rem;
+  position: relative;
+  animation: anti-imbalance;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  transition: transform 0.01s;
+  margin-bottom: 13rem;
+  text-align: center;
+  font-family: "Courgette", cursive;
 }
 @keyframes anti-imbalance {
-	0% {
-		right: -700px;
-	}
-	80% {
-		right: 200px;
-	}
-	100% {
-		right: 0px;
-	}
+  0% {
+    right: -700px;
+  }
+  80% {
+    right: 200px;
+  }
+  100% {
+    right: 0px;
+  }
 }
 
 .my-img-size {
-	height: 320px;
-	width: 320px;
+  height: 320px;
+  width: 320px;
 }
 
 .whatsapp {
-	background-color: #01e675;
-	color: #fff !important;
+  background-color: #01e675;
+  color: #fff !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .responsive-text {
+    font-size: 3.7vw !important;
+  }
 }
